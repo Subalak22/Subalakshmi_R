@@ -1,0 +1,14 @@
+age = int(input("What is your current age?"))
+left_age=int(90-age)
+left_days=left_age*365
+left_weeks=left_age*52
+left_month=left_age*12
+print(f"you have {left_days} days,{left_weeks} weeks, and {left_month} months left.")
+
+
+
+
+
+
+
+
