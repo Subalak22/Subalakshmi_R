@@ -1,0 +1,9 @@
+import random
+names_string = input("Give me everybody's names, separated by a comma. ")
+names = names_string.split(",")
+num_person=len(names)
+meal_bill=random.randint(0,num_person-1)
+who_pay=names[meal_bill]
+print(who_pay+" is going to buy the meal today")
+
+
